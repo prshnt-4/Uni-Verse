@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
+
+:root {
+  --background: #F1F0F6;
+  --card: #FFFFFF;
+  --primary: #6255A5;
+  --primary-dark: #38304F;
+  --lavender: #E9E7F2;
+  --accent-blue: #6F91D5;
+  --accent-coral: #F3AFA5;
+  --text-main: #29283D;
+  --text-secondary: #85869B;
+  --border: #E9E8F0;
+}
+
+body {
+  background-color: #F1F0F6;
+  color: #29283D;
+  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for clean dashboard aesthetic */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DFDCEB;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9C5DE;
+}
+
+/* Subtle card entrance animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
