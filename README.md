@@ -6,21 +6,6 @@ Uni-Verse is an AI-powered student platform designed to bring academic organizat
 
 ---
 
-## 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Technology Stack](#-technology-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Available Scripts](#-available-scripts)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-
----
-
 ## 🌟 Overview
 
 University life involves balancing academics, personal projects, deadlines, extracurricular activities, and professional growth. Managing these responsibilities across multiple platforms can become overwhelming.
