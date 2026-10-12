@@ -223,5 +223,5 @@ No license has been specified in this README. Before distributing or reusing the
 <p align="center">
   <strong>Uni-Verse 🚀</strong><br/>
   <em>One platform. Endless possibilities.</em><br/><br/>
-  Built to help students plan smarter, build together, and grow as a community.
+  Built for help students By Students.
 </p>
